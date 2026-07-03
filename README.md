@@ -5,14 +5,14 @@ empat tahapan utama proses kompilasi — **Analisis Leksikal**, **Analisis
 Sintaksis**, **Analisis Semantik**, dan **Generasi Kode Antara (Three-Address
 Code / TAC)** — untuk konstruksi perulangan **`for`**.
 
-## 📂 Isi Repository
+## Isi Repository
 
 | File | Deskripsi |
 |------|-----------|
 | `ForLoopCompiler.py` | Implementasi utama dalam satu class `ForLoopCompiler` (lexer → parser/AST → semantic checker → TAC generator) |
 | `Dokumentasi_Simulasi_Kompilasi_ForLoop.md` | Dokumentasi lengkap: grammar BNF, penjelasan tiap tahap, dan contoh hasil eksekusi |
 
-## 🧠 Grammar (BNF)
+## Grammar (BNF)
 
 ```
 <for_stmt>  ::= "for" "(" <assign> ";" <cond> ";" <assign> ")" "{" <block> "}"
@@ -26,13 +26,13 @@ Code / TAC)** — untuk konstruksi perulangan **`for`**.
 <relop>     ::= "<" | ">" | "<=" | ">=" | "==" | "!="
 ```
 
-## ▶️ Cara Menjalankan
+## Cara Menjalankan
 
 ```bash
 python3 ForLoopCompiler.py
 ```
 
-## 📊 Contoh Output
+## Contoh Output
 
 **Input:**
 ```c
@@ -61,6 +61,6 @@ L2:
 Penjelasan lengkap tiap tahap tersedia di
 [`Dokumentasi_Simulasi_Kompilasi_ForLoop.md`](./Dokumentasi_Simulasi_Kompilasi_ForLoop.md).
 
-## 👤 Author
+## Author
 
-Ricky — Teknik Informatika, Universitas Pamulang (UNPAM)
+Anggoro Riski
